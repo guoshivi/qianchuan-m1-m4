@@ -1,0 +1,32 @@
+# 本地配置（含真实号名 / aavid / uid / 识别码前缀）
+bridge/qc-config.js
+bridge/ego/ego-profiles.local.js
+
+# 运行时状态（默认在 ~/.qc-rebuild-ego，这里兜底）
+.qc-rebuild-ego/
+
+# 出片产物与素材：只保留占位图
+remotion/out/
+remotion/public/*
+!remotion/public/paohui-main.png
+!remotion/public/.gitkeep
+
+# 依赖
+node_modules/
+remotion/node_modules/
+
+# 素材 / 视频
+*.mp4
+*.mov
+*.wav
+*.jpg
+*.jpeg
+*.png
+!remotion/public/paohui-main.png
+
+# Python
+__pycache__/
+*.pyc
+
+# 系统
+.DS_Store
